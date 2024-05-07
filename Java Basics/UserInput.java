@@ -15,3 +15,10 @@ public class UserInput {
 }
 
 
+// Output:
+// Please Enter Your Name: Satya
+// Good Morning Satya
+// Satya Also tell me your age :
+// 20
+// Your age is : 20
+
