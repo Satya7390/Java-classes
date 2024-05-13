@@ -1,0 +1,13 @@
+8. Create a program that takes two numbers and shows result of all arithmetic operators (+,-,*,/,%).
+
+9. Create a program to calculate product of two floating points numbers.
+
+10.Create a program to calculate Perimeter of a rectangle. Perimeter of rectangle ABCD = A+B+C+D
+
+11.Create a program to calculate the Area of a Triangle. Area of triangle = ½*B*H
+
+12.Create a program to calculate simple interest. Simple Interest = (P x T x R)/100
+
+13.Create a program to calculate Compound interest. Compound Interest = P(1 + R/100)t
+
+14.Create a program to convert Fahrenheit to Celsius °C = (°F - 32) x 5/9
