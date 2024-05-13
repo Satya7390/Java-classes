@@ -1,0 +1,29 @@
+15.Create a program that determines if a number is positive, negative, or zero.
+
+16.Create a program that determines if a number is odd or even.
+
+17. Create a program that determines the greatest of the three numbers.
+
+18. Create a program that determines if a given year is a leap year (considering conditions like divisible by 4 but not 100, unless also divisible by 400).
+
+19.Create a program that calculates grades based on marks
+
+A -> above 90%
+
+B -> above 75%
+
+C -> above 60%
+
+D -> above 30%
+
+F -> below 30%
+
+20.Create a program that categorize a person into different age groups
+
+Child -> below 13
+
+Teen -> below 20
+
+Adult -> below 60
+
+Senior-> above 60
