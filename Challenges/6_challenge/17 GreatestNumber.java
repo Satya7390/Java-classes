@@ -14,10 +14,10 @@ class  GreatestNumber {
         double num2 = input.nextDouble();
         double num3 = input.nextDouble();
 
-        if(num1>num2 && num1>num3){
+        if(num1 >=num2 && num1 >= num3){
             System.out.println("Your Greatest Number is : "+num1);
         }
-        else if(num2>num1 && num2>num3){
+        else if( num2 >= num3){
             System.out.println("Your Greatest Number is : "+num2);
         }
         else{

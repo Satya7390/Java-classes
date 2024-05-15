@@ -14,10 +14,10 @@ class PositiveNegativeZero {
 
         double num = input.nextDouble();
 
-        if(num>0){
+        if(num > 0){
             System.out.println("Your Number is Positive!!");
         }
-        else if(num<0){
+        else if(num < 0){
             System.out.println("Your Number is Negative!!");
         }
         else{
