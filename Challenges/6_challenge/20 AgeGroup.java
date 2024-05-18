@@ -21,15 +21,15 @@ class  AgeGroup {
         System.out.print("Please Enter your AGE : ");
         int age = input.nextInt();
 
-        if (age >60 ){
+        if (age >= 60 ){
             System.out.println("Your are a Senior Person!!");
         }
         
-        else if (age < 60 && age > 20) {
+        else if ( age >= 20) {
             System.out.println("You are a Adult Person");
         }
 
-        else if (age < 20 && age > 13) {
+        else if (age >= 13) {
             System.out.println("You are a Teen Person");
         }
         else {
