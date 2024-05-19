@@ -1,0 +1,13 @@
+21. Create a program that shows bitwise AND of two numbers.
+
+22. Create a program that shows bitwise OR of two numbers.
+
+23. Create a program that shows bitwise XOR of two numbers.
+
+24. Create a program that shows bitwise compliment of a number.
+
+25. Create a program that shows use of left shift operator.
+
+26. Create a program that shows use of right shift operator.
+
+27. Write a program to check if a given number is even or odd using bitwise operators.
