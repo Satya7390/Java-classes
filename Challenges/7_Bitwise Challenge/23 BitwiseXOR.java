@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * 22 BitwiseOR
  */
+
 class BitwiseXOR {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

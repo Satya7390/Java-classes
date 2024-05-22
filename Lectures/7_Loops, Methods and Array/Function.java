@@ -6,6 +6,8 @@ public class Function {
         greetUser();
         
     }
+
+    
     public static void greetUser() {
         System.out.println("Good Morning Satya!!");
         
