@@ -22,6 +22,7 @@ import java.util.Scanner;
     public static void printResult(){
 
         int num = readNumber();
+
         System.out.println("\nYour Table of "+num+" is ready now !! ");
 
         int i = 1;
@@ -31,7 +32,7 @@ import java.util.Scanner;
             int cal = num*i;
 
            
-            System.out.println(num+"*"+i+ "="+ cal);
+            System.out.println(num+"*"+i+ " = "+ cal);
             i++;
             
         }
