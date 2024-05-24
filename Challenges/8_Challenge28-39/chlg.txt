@@ -1,0 +1,29 @@
+28. Develop a program that prints the multiplication table for a given number.
+
+29. Create a program to sum all odd numbers from 1 to a specified number N.
+
+30. Write a function that calculates the factorial of a given number.
+
+31. Create a program that computes the sum of the digits of an integer.
+
+32. Create a program to find the Least Common Multiple (LCM) of two numbers.
+
+33. Create a program to find the Greatest Common Divisor (GCD) of two integers.
+
+34. Create a program to check whether a given number is prime.
+
+35. Create a program to reverse the digits of a number.
+
+36. Create a program to print the Fibonacci series up to a certain number.
+
+37. Create a program to check if a number is an Armstrong number.
+
+38. Create a program to verify if a number is a palindrome.
+
+39. Create a program that print patterns:
+
+Right Half Pyramid
+
+Left Half Pyramid
+
+Reverse Right Half Pyramid
