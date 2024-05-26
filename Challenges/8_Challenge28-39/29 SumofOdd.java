@@ -41,3 +41,10 @@ import java.util.Scanner;
     }
 }
 
+
+// Output 
+
+// Welcome to Odd Sum Calculation!!
+
+// Please Enter your Number : 9
+// Your OddSum till 9 is : 25
