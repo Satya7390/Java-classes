@@ -1,4 +1,3 @@
-
 // 28. Develop a program that prints the multiplication table for a given number.
 
 import java.util.Scanner;
@@ -32,7 +31,7 @@ import java.util.Scanner;
             int cal = num*i;
 
            
-            System.out.println(num+"*"+i+ " = "+ cal);
+            System.out.println(num+"x"+i+ " = "+ cal);
             i++;
             
         }
