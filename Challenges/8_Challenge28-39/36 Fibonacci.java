@@ -10,21 +10,33 @@ class Fibonacci {
 
         System.out.print("Please enter the number up to which series has to be printed : ");
         int num = input.nextInt();
+        System.out.println("Here is the Fibonacci Series");
+        printFibonacci(num);
 
-        int a = 0;
-        int b = 1;
-        int i = 1;
-        while (i <= num) {
-            int fab = a + b;
-            System.out.println(fab);
-            a = b;
-            b = fab;
-            i++;
+    }
+
+    public static void printFibonacci(int num) {
+
+        if (num < 0) return;
+        System.out.print("0 ");
+        if (num == 0 ) return;
+        System.out.print("1 ");
+        int first = 0, second = 1;
+        while (first + second <= num) {
+            int third = first + second;
+            System.out.print(third + " ");
+            first = second;
+            second = third;
 
         }
 
     }
-    // public static void (){
 
-    // }
 }
+
+
+// Output :
+// Welcome to Fibonacci Series!!
+// Please enter the number up to which series has to be printed : 200
+// Here is the Fibonacci Series
+// 0 1 1 2 3 5 8 13 21 34 55 89 144
