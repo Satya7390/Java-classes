@@ -1,0 +1,21 @@
+40. Create a program to find the sum and average of all elements in an array.
+
+41. Create a program to find number of occurrences of an element in an array.
+
+42. Create a program to find the maximum and minimum element in an array.
+
+43. Create a program to check if the given array is sorted.
+
+44. Create a program to return a new array deleting a specific element.
+
+45. Create a program to reverse an array.
+
+46. Create a program to check is the array is palindrome or not.
+
+47. Create a program to merge two sorted arrays.
+
+48. Create a program to search an element in a 2-D array.
+
+49. Create a program to do sum and average of all elements in a 2-D array.
+
+50. Create a program to find the sum of two diagonal elements.
