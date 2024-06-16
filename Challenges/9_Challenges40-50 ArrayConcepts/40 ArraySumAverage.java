@@ -5,37 +5,44 @@ import java.util.Scanner;
 
 class ArraySumAverage {
     public static void main(String[] args) {
-      
+
         System.out.println("Welcome to Array Sum and Average!!");
-        int [] numArray = ArrayUtility.inputArray();
+        int[] numArray = ArrayUtility.inputArray();
         long sum = sum(numArray);
         double avg = average(numArray);
 
-        System.out.println("Sum of the number is : "+sum);
-        System.out.println("Average of the number is : "+avg);
+        System.out.println("Sum of the number is : " + sum);
+        System.out.println("Average of the number is : " + avg);
     }
-
 
     // for find Array Sum
 
-    public static long sum( int []  numArray){
+    public static long sum(int[] numArray) {
         int i = 0;
         int sum = 0;
         while (i < numArray.length) {
             sum += numArray[i];
             i++;
-            
+
         }
         return sum;
     }
 
-// for find Array Average
-   
-public static double average(int [] numArray){
+    // for find Array Average
 
-    double sum = sum(numArray);
+    public static double average(int[] numArray) {
 
-    return sum/numArray.length;
+        double sum = sum(numArray);
+
+        return sum / numArray.length;
+    }
+
 }
-    
-}
+
+// Outputs :
+// Welcome to Array Sum and Average!!
+// Please enter the number of elements : 2
+// Please enter element number 1: 1
+// Please enter element number 2: 2
+// Sum of the number is : 3
+// Average of the number is : 1.5
