@@ -9,7 +9,7 @@ class SortArray {
         System.out.println("Welcome to Array Sorting Checker!!");
         int[] numArray = ArrayUtility.inputArray();
 
-        //SortArray(numArray); concept pending
+        //SortArray(numArray); 
     }
 
     public static boolean AscendingOrder(int[] numArray){
