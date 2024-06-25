@@ -9,20 +9,36 @@ class SortArray {
         System.out.println("Welcome to Array Sorting Checker!!");
         int[] numArray = ArrayUtility.inputArray();
 
-        //SortArray(numArray); 
+        boolean inc = isIncreasing(numArray);
+        boolean des = isDecreasing(numArray);
+
+        if (inc || des) {
+            System.out.println("Your Given Array is Sorted");
+        } else {
+            System.out.println("Your Given Array is not Sorted");
+        }
     }
 
-    public static boolean AscendingOrder(int[] numArray){
-        int min = numArray[1];
-        int max = numArray[1];
+    public static boolean isIncreasing(int[] numArray) {
         int i = 1;
         while (i < numArray.length) {
-            if (min < numArray[i] || max > numArray[i]) {
-                return true;
+            if (numArray[i] > numArray[i - 1]) {
+                return false;
             }
             i++;
         }
-        return false;
+        return true;
+    }
+
+    public static boolean isDecreasing(int[] numArray) {
+        int i = 1;
+        while (i < numArray.length) {
+            if (numArray[i] < numArray[i - 1]) {
+                return false;
+            }
+            i++;
+        }
+        return true;
     }
 
 }
