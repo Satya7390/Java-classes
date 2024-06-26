@@ -42,3 +42,37 @@ class SortArray {
     }
 
 }
+
+
+// Outputs: 
+
+// Welcome to Array Sorting Checker!!
+// Please enter the number of elements : 5
+// Please enter element number 1: -9
+// Please enter element number 2: 3
+// Please enter element number 3: 33
+// Please enter element number 4: 45
+// Please enter element number 5: 55
+// Your Given Array is Sorted
+
+
+// Welcome to Array Sorting Checker!!
+// Please enter the number of elements : 5
+// Please enter element number 1: 45
+// Please enter element number 2: 44
+// Please enter element number 3: 6
+// Please enter element number 4: 4
+// Please enter element number 5: 1
+// Your Given Array is Sorted
+
+
+
+// Welcome to Array Sorting Checker!!
+// Please enter the number of elements : 6
+// Please enter element number 1: 435
+// Please enter element number 2: 43
+// Please enter element number 3: 32
+// Please enter element number 4: 545
+// Please enter element number 5: 43
+// Please enter element number 6: 54
+// Your Given Array is not Sorted
