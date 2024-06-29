@@ -6,6 +6,7 @@ import java.util.Scanner;
 class  NewArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println();
     }
     
 }
