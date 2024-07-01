@@ -11,5 +11,9 @@ class  NewArray {
         System.out.println("Now , Enter your number which you want to delete : ");
         int numToDelete = input.nextInt();
     }
+
+    public static void ToDelete(){
+        
+    }
     
 }
