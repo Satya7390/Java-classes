@@ -3,7 +3,9 @@
 
 import java.util.Scanner;
 
-class  ReverseArray {
-    Scanner input = new Scanner(System.in);
-    
+class ReverseArray {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+    }
 }
