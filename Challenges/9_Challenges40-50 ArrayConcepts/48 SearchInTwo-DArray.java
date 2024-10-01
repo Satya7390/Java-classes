@@ -6,5 +6,8 @@ import java.util.Scanner;
 class SearchInTwoDArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Welcome to 2D Search\n");
+        int [][] numArray = ArrayUtility.input2DArray();
+        System.out.println("Now Enter the number you want to search : ");
     }
 }
