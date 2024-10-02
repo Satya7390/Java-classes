@@ -7,27 +7,26 @@ class SearchInTwoDArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to 2D Search\n");
-        int [][] numArray = ArrayUtility.input2DArray();
+        int[][] numArray = ArrayUtility.input2DArray();
         System.out.print("Now Enter the number you want to search : ");
         int num = input.nextInt();
         boolean isFound = searchArr(numArray, num);
 
         if (isFound) {
             System.out.println(num + " is present in the Array\n");
-        }
-        else{
+        } else {
             System.out.println(num + " is not present in the Array");
         }
     }
 
-    public static boolean searchArr(int [][] numArray , int num) {
+    public static boolean searchArr(int[][] numArray, int num) {
         int i = 0;
         while (i < numArray.length) {
             int j = 0;
             while (j < numArray[i].length) {
-                if ( numArray[i][j] == num) {
-                    return true ;
-                    
+                if (numArray[i][j] == num) {
+                    return true;
+
                 }
                 j++;
             }
@@ -39,8 +38,7 @@ class SearchInTwoDArray {
     }
 }
 
-
-// Outputs 
+// Outputs
 
 // Welcome to 2D Search
 
@@ -52,9 +50,6 @@ class SearchInTwoDArray {
 // Please enter the element of row : 2 , column 2 : 4
 // Now Enter the number you want to search : 2
 // 2 is present in the Array
-
-
-
 
 // Welcome to 2D Search
 

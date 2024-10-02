@@ -19,8 +19,8 @@ public class ArrayUtility {
         return nums;
     }
 
-
-    // This class is also  created for 2D Array input to  use again and agian for multiple Programming
+    // This class is also created for 2D Array input to use again and agian for
+    // multiple Programming
     public static int[][] input2DArray() {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the number of rows : ");
