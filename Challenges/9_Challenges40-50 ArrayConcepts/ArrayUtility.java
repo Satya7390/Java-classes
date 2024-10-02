@@ -33,7 +33,7 @@ public class ArrayUtility {
         while (i < rows) {
             int j = 0;
             while (j < columns) {
-                System.out.println("Please enter the element of row : " + (i + 1) + " , column " + (j + 1) + " : ");
+                System.out.print("Please enter the element of row : " + (i + 1) + " , column " + (j + 1) + " : ");
                 numArray[i][j] = input.nextInt();
                 j++;
 
