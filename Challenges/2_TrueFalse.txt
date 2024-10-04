@@ -1,0 +1,18 @@
+Practice Exercise Java
+
+Java Basics
+
+Answer in True/False:
+1. A 'while' loop in Java continues to execute as long as its condition is //True
+true.
+2. The body of a 'while' loop will execute at least once, regardless of //False
+the condition.
+3. A 'while' loop cannot be used for iterating over an array. // False
+4. Infinite loops are not possible with 'while' loops in Java. // False
+5. A method in Java can return more than one value at a time. //False
+6. It's mandatory for every Java method to have a return type. //True
+7. The size of an array in Java can be modified after it is created. //False
+8. Arrays in Java can contain elements of different data types. //False
+9. An array is a reference type in Java. //True
+10.Java arrays are zero-indexed, meaning the first element has an index //True
+of 0.
