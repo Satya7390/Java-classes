@@ -6,14 +6,14 @@ class SumOfDiagnol {
         System.out.println("Welcome to Sum Of Diagnol Elements !!");
         int[][] numArray = ArrayUtility.input2DArray();
         long sum = SumOfDiagnols(numArray);
-        System.out.println("Some Diagnols is : " + sum);
+        System.out.println("Sum Of Diagnols is : " + sum);
 
     }
 
     public static long SumOfDiagnols(int[][] numArray) {
         long sum1 = leftDiagnolSum(numArray);
         long sum2 = rightDiagnolSum(numArray);
-        long sum = sum1 + sum2;
+        long sum = (sum1 + sum2);
 
         if (numArray.length % 2 != 0) {
 
@@ -39,9 +39,19 @@ class SumOfDiagnol {
         long sum = 0;
         int i = 0;
         while (i < numArray.length) {
-            int cols = numArray.length - 1 - i;
-            sum += numArray[i][cols];
+            int col = numArray.length - 1 - i;
+            sum += numArray[i][col];
+            i++;
         }
         return sum;
     }
 }
+
+// Welcome to Sum Of Diagnol Elements !!
+// Please enter the number of rows : 2
+// Please enter the number of columns : 2
+// Please enter the element of row : 1 , column 1 : 1
+// Please enter the element of row : 1 , column 2 : 2
+// Please enter the element of row : 2 , column 1 : 3
+// Please enter the element of row : 2 , column 2 : 4
+// Sum Of Diagnols is : 10
