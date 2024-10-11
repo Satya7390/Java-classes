@@ -43,3 +43,8 @@ class Course {
     }
 
 }
+
+
+// Outputs : 
+// 1 students enrolled successfully!! and the course name is : B.Tech
+// 2 students enrolled successfully!! and the course name is : B.Tech
