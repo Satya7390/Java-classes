@@ -6,8 +6,12 @@ public class Switch {
         System.out.println("\nWelcome to Day Checker!!");
         System.out.print("Please enter your day number : ");
         int day = input.nextInt();
+        // oldSwitch(day);
+        newSwitch(day);
+    }
 
-        // use of switch case ================
+    // use of switch case ================
+    public static void oldSwitch(int day) {
         switch (day) {
             case 1:
                 System.out.println("Monday");
@@ -35,9 +39,25 @@ public class Switch {
                 break;
         }
     }
+
+    // Using Advance version concepts of switch case============
+    public static void newSwitch(int day) {
+        String dayStr = switch (day) {
+            case 1 -> "Monday";
+            case 2 -> "Tuesday";
+            case 3 -> "Wednesday";
+            case 4 -> "Thursday";
+            case 5 -> "Friday";
+            case 6 -> "Saturday";
+            case 7 -> "Sunday";
+            default -> "Invalid input!! , Please enter value between 1 to 7";
+        };
+        System.out.println(dayStr);
+    }
+
 }
 
-// Outputs : 
+// Outputs :
 
 // Welcome to Day Checker!!
 // Please enter your day number : 2
