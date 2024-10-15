@@ -13,8 +13,15 @@ class minOfTwo {
         System.out.print("Now, please enter your second nummber : ");
         int num2 = input.nextInt();
 
-        int minOfTwoNumber = num1 < num2 ? num1 : num2;
+        minOfTwo ternary = new minOfTwo(); // object created
+
+        int minOfTwoNumber = ternary.minOfTwoNumber(num1, num2);
         System.out.println(minOfTwoNumber + " is your minimum of the two numbers");
+
+    }
+
+    public int minOfTwoNumber(int num1, int num2) {
+        return num1 < num2 ? num1 : num2;
     }
 }
 
