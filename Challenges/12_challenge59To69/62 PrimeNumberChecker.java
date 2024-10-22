@@ -19,7 +19,7 @@ class PrimeNumberChecker {
             }
         }
         return true;
-    }
+    } 
 }
 
 
