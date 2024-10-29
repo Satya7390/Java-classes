@@ -6,6 +6,8 @@ public class RandomMath {
         System.out.println(Math.floor(77.08));
         System.out.println(Math.round(55.06));
         System.out.println(Math.round(55.7));
+        System.out.println(Math.pow(14,2));
+        System.out.println(Math.PI);
         System.out.println("------------------------------");
 
         for (int i = 0; i < 10; i++) {
