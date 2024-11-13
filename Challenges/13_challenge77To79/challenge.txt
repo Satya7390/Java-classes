@@ -1,0 +1,21 @@
+==========================Java====================
+
+=======================CHALLENGE================
+
+77. Create a simple application with at least two packages:
+com.example.geometry and com.example.utils. In the geometry
+package, define classes like Circle and Rectangle. In the utils
+package, create a Calculator class that can compute areas of these
+shapes.
+
+78. Define a BankAccount class with private attributes like
+accountNumber, accountHolderName, and balance. Provide
+public methods to deposit and withdraw money, ensuring that
+these methods don't allow illegal operations like withdrawing
+more money than the current balance.
+
+79. Define a class Employee with private attributes (like name, age,
+and salary), public methods to get and set these attributes, and a
+package-private method to displayEmployeeDetails. Create
+another class in the same package to test access to the
+displayEmployeeDetails method.
