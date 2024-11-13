@@ -17,6 +17,8 @@ public class Car {
         this.model = model;
     }
 
+    
+
     public String getColor (){
         return color;
     };
@@ -24,4 +26,21 @@ public class Car {
     public String getModel (){
         return color;
     };
+
+    
+    public double getFuelLevel() {
+        return fuelLevel;
+    }
+
+    public void setFuelLevel(double fuelLevel) {
+        this.fuelLevel = fuelLevel;
+    }
+
+    public long getCostOfPurchase() {
+        return costOfPurchase;
+    }
+
+    public void setCostOfPurchase(long costOfPurchase) {
+        this.costOfPurchase = costOfPurchase;
+    }
 }
