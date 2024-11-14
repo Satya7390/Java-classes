@@ -1,7 +1,7 @@
-package Challenge77To79.utils;
+package Challenge77To79.challenge77.utils;
 
-import Challenge77To79.geometry.Circle;
-import Challenge77To79.geometry.Rectangle;
+import Challenge77To79.challenge77.geometry.Circle;
+import Challenge77To79.challenge77.geometry.Rectangle;
 
 public class Calculator {
 

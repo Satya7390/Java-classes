@@ -1,4 +1,4 @@
-package Challenge77To79.geometry;
+package Challenge77To79.challenge77.geometry;
 
 public class Circle {
 
