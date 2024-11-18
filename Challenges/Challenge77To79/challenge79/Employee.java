@@ -19,9 +19,6 @@ class Employee {
         this.salary = salary;
     }
 
-    ;
-
-
     String getEmployeeDetails() {
         return "Employee Details : Name : " + name + ", Age : " + age + ", Salary : " + salary;
     }
