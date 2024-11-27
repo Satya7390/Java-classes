@@ -1,0 +1,14 @@
+==========================Java====================
+
+=======================CHALLENGE  Based on  Abstraction ================
+
+83. Create an abstract class Shape with an abstract method
+calculateArea(). Implement two subclasses: Circle and
+Square. Each subclass should have relevant attributes (like
+radius for Circle, side for Square) and their own
+implementation of the calculateArea() method.
+
+84. Create an interface Flyable with an abstract method fly().
+Create an abstract class Bird that implements Flyable.
+Implement a subclass Eagle that extends Bird. Provide an
+implementation for the fly() method.
