@@ -1,10 +1,10 @@
 
 import java.util.Scanner;
 
-public class RightHalfPyramid {
+public class RiverseLeftHalfPyramid {
 
     public static void main(String[] args) {
-        System.out.println("\nWelcome to the Right Half Pyramid!!");
+        System.out.println("\nWelcome to the Riverse Left Half Pyramid!!");
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number of lines : ");
         int num = input.nextInt();
