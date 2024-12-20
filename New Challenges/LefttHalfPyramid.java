@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class RightHalfPyramid {
+public class LefttHalfPyramid {
 
     public static void main(String[] args) {
         System.out.println("\nWelcome to Right Half Pyramid!!\n");
