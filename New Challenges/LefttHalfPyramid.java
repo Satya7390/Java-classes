@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class LefttHalfPyramid {
 
     public static void main(String[] args) {
-        System.out.println("\nWelcome to Right Half Pyramid!!\n");
+        System.out.println("\nWelcome to Left Half Pyramid!!\n");
         Scanner input = new Scanner(System.in);
         System.out.print("Enter Number : ");
         int num = input.nextInt();
