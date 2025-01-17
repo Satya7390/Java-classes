@@ -9,7 +9,7 @@ public class SpiralMatrix {
 
     public static void printSpiral(int matrix[][]) {
 
-        int startRow = 0, endRow = matrix[0].length - 1, startCol = 0, endCol = matrix[0].length - 1;
+        int startRow = 0, endRow = matrix.length - 1, startCol = 0, endCol = matrix[0].length - 1;
 
         while (startRow <= endRow && startCol <= endCol) {
             // here j for cols and i for rows
